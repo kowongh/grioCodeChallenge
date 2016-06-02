@@ -20,6 +20,7 @@ Here are some test coordinates to try with the app:
 601 Howard St. - Financial District
 37.786630, -122.398270
 
+-
 The app was created with one ViewController which has two main views. The first view contains two input textFields and button, and the second view is a tableView for storing locations. I chose to work with CGPoints, because it seemed easier to work with instead of small two-index arrays and there was already built-in UIKit support for the containsPoint method.
 
 In the "readFile" method, I parsed through the GeoJSON data by casting it to an NSDictionary.
@@ -30,7 +31,7 @@ Finally, when the findButton is hit, we loop through each CGPoint array and chec
 
 When there is a match, we add it to the locationsFound array of tuples (a name String and a CGPoint). Then we update the tableView with the new data.
 
--------------------------------------------------------------------
+-
 INSTRUCTIONS: If you visit: https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/san-francisco.geojson
 you can find the list of neighborhoods in San Francisco in a GeoJson format. Every neighborhood is represented by a polygon.
 
