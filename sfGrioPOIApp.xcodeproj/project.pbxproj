@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		700AC5A31CFF693E00C3E978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700AC5A21CFF693E00C3E978 /* AppDelegate.swift */; };
+		700AC5A51CFF693E00C3E978 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700AC5A41CFF693E00C3E978 /* ViewController.swift */; };
+		700AC5A81CFF693E00C3E978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700AC5A61CFF693E00C3E978 /* Main.storyboard */; };
+		700AC5AA1CFF693E00C3E978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700AC5A91CFF693E00C3E978 /* Assets.xcassets */; };
+		700AC5AD1CFF693E00C3E978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700AC5AB1CFF693E00C3E978 /* LaunchScreen.storyboard */; };
+		700AC5B81CFF693E00C3E978 /* sfGrioPOIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700AC5B71CFF693E00C3E978 /* sfGrioPOIAppTests.swift */; };
+		700AC5C31CFF693E00C3E978 /* sfGrioPOIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700AC5C21CFF693E00C3E978 /* sfGrioPOIAppUITests.swift */; };
+		700AC5D41CFF6CD500C3E978 /* SFNeighborhoods.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 700AC5D31CFF6CD500C3E978 /* SFNeighborhoods.geojson */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		700AC5B41CFF693E00C3E978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700AC5971CFF693E00C3E978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700AC59E1CFF693E00C3E978;
+			remoteInfo = sfGrioPOIApp;
+		};
+		700AC5BF1CFF693E00C3E978 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 700AC5971CFF693E00C3E978 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700AC59E1CFF693E00C3E978;
+			remoteInfo = sfGrioPOIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		700AC59F1CFF693E00C3E978 /* sfGrioPOIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sfGrioPOIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		700AC5A21CFF693E00C3E978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		700AC5A41CFF693E00C3E978 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		700AC5A71CFF693E00C3E978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		700AC5A91CFF693E00C3E978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		700AC5AC1CFF693E00C3E978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		700AC5AE1CFF693E00C3E978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700AC5B31CFF693E00C3E978 /* sfGrioPOIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sfGrioPOIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		700AC5B71CFF693E00C3E978 /* sfGrioPOIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfGrioPOIAppTests.swift; sourceTree = "<group>"; };
+		700AC5B91CFF693E00C3E978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700AC5BE1CFF693E00C3E978 /* sfGrioPOIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sfGrioPOIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		700AC5C21CFF693E00C3E978 /* sfGrioPOIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sfGrioPOIAppUITests.swift; sourceTree = "<group>"; };
+		700AC5C41CFF693E00C3E978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700AC5D31CFF6CD500C3E978 /* SFNeighborhoods.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SFNeighborhoods.geojson; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		700AC59C1CFF693E00C3E978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700AC5B01CFF693E00C3E978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700AC5BB1CFF693E00C3E978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		700AC5961CFF693E00C3E978 = {
+			isa = PBXGroup;
+			children = (
+				700AC5A11CFF693E00C3E978 /* sfGrioPOIApp */,
+				700AC5B61CFF693E00C3E978 /* sfGrioPOIAppTests */,
+				700AC5C11CFF693E00C3E978 /* sfGrioPOIAppUITests */,
+				700AC5A01CFF693E00C3E978 /* Products */,
+				E91A539EC243AF45B0C2D311 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		700AC5A01CFF693E00C3E978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				700AC59F1CFF693E00C3E978 /* sfGrioPOIApp.app */,
+				700AC5B31CFF693E00C3E978 /* sfGrioPOIAppTests.xctest */,
+				700AC5BE1CFF693E00C3E978 /* sfGrioPOIAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		700AC5A11CFF693E00C3E978 /* sfGrioPOIApp */ = {
+			isa = PBXGroup;
+			children = (
+				700AC5A21CFF693E00C3E978 /* AppDelegate.swift */,
+				700AC5A41CFF693E00C3E978 /* ViewController.swift */,
+				700AC5A61CFF693E00C3E978 /* Main.storyboard */,
+				700AC5D31CFF6CD500C3E978 /* SFNeighborhoods.geojson */,
+				700AC5A91CFF693E00C3E978 /* Assets.xcassets */,
+				700AC5AB1CFF693E00C3E978 /* LaunchScreen.storyboard */,
+				700AC5AE1CFF693E00C3E978 /* Info.plist */,
+			);
+			path = sfGrioPOIApp;
+			sourceTree = "<group>";
+		};
+		700AC5B61CFF693E00C3E978 /* sfGrioPOIAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				700AC5B71CFF693E00C3E978 /* sfGrioPOIAppTests.swift */,
+				700AC5B91CFF693E00C3E978 /* Info.plist */,
+			);
+			path = sfGrioPOIAppTests;
+			sourceTree = "<group>";
+		};
+		700AC5C11CFF693E00C3E978 /* sfGrioPOIAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				700AC5C21CFF693E00C3E978 /* sfGrioPOIAppUITests.swift */,
+				700AC5C41CFF693E00C3E978 /* Info.plist */,
+			);
+			path = sfGrioPOIAppUITests;
+			sourceTree = "<group>";
+		};
+		E91A539EC243AF45B0C2D311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		700AC59E1CFF693E00C3E978 /* sfGrioPOIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700AC5C71CFF693E00C3E978 /* Build configuration list for PBXNativeTarget "sfGrioPOIApp" */;
+			buildPhases = (
+				700AC59B1CFF693E00C3E978 /* Sources */,
+				700AC59C1CFF693E00C3E978 /* Frameworks */,
+				700AC59D1CFF693E00C3E978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sfGrioPOIApp;
+			productName = sfGrioPOIApp;
+			productReference = 700AC59F1CFF693E00C3E978 /* sfGrioPOIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		700AC5B21CFF693E00C3E978 /* sfGrioPOIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700AC5CA1CFF693E00C3E978 /* Build configuration list for PBXNativeTarget "sfGrioPOIAppTests" */;
+			buildPhases = (
+				700AC5AF1CFF693E00C3E978 /* Sources */,
+				700AC5B01CFF693E00C3E978 /* Frameworks */,
+				700AC5B11CFF693E00C3E978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				700AC5B51CFF693E00C3E978 /* PBXTargetDependency */,
+			);
+			name = sfGrioPOIAppTests;
+			productName = sfGrioPOIAppTests;
+			productReference = 700AC5B31CFF693E00C3E978 /* sfGrioPOIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		700AC5BD1CFF693E00C3E978 /* sfGrioPOIAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 700AC5CD1CFF693E00C3E978 /* Build configuration list for PBXNativeTarget "sfGrioPOIAppUITests" */;
+			buildPhases = (
+				700AC5BA1CFF693E00C3E978 /* Sources */,
+				700AC5BB1CFF693E00C3E978 /* Frameworks */,
+				700AC5BC1CFF693E00C3E978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				700AC5C01CFF693E00C3E978 /* PBXTargetDependency */,
+			);
+			name = sfGrioPOIAppUITests;
+			productName = sfGrioPOIAppUITests;
+			productReference = 700AC5BE1CFF693E00C3E978 /* sfGrioPOIAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		700AC5971CFF693E00C3E978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Korin Wong-Horiuchi";
+				TargetAttributes = {
+					700AC59E1CFF693E00C3E978 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					700AC5B21CFF693E00C3E978 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 700AC59E1CFF693E00C3E978;
+					};
+					700AC5BD1CFF693E00C3E978 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 700AC59E1CFF693E00C3E978;
+					};
+				};
+			};
+			buildConfigurationList = 700AC59A1CFF693E00C3E978 /* Build configuration list for PBXProject "sfGrioPOIApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 700AC5961CFF693E00C3E978;
+			productRefGroup = 700AC5A01CFF693E00C3E978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				700AC59E1CFF693E00C3E978 /* sfGrioPOIApp */,
+				700AC5B21CFF693E00C3E978 /* sfGrioPOIAppTests */,
+				700AC5BD1CFF693E00C3E978 /* sfGrioPOIAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		700AC59D1CFF693E00C3E978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700AC5AD1CFF693E00C3E978 /* LaunchScreen.storyboard in Resources */,
+				700AC5AA1CFF693E00C3E978 /* Assets.xcassets in Resources */,
+				700AC5D41CFF6CD500C3E978 /* SFNeighborhoods.geojson in Resources */,
+				700AC5A81CFF693E00C3E978 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700AC5B11CFF693E00C3E978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700AC5BC1CFF693E00C3E978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		700AC59B1CFF693E00C3E978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700AC5A51CFF693E00C3E978 /* ViewController.swift in Sources */,
+				700AC5A31CFF693E00C3E978 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700AC5AF1CFF693E00C3E978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700AC5B81CFF693E00C3E978 /* sfGrioPOIAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700AC5BA1CFF693E00C3E978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700AC5C31CFF693E00C3E978 /* sfGrioPOIAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		700AC5B51CFF693E00C3E978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700AC59E1CFF693E00C3E978 /* sfGrioPOIApp */;
+			targetProxy = 700AC5B41CFF693E00C3E978 /* PBXContainerItemProxy */;
+		};
+		700AC5C01CFF693E00C3E978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 700AC59E1CFF693E00C3E978 /* sfGrioPOIApp */;
+			targetProxy = 700AC5BF1CFF693E00C3E978 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		700AC5A61CFF693E00C3E978 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700AC5A71CFF693E00C3E978 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		700AC5AB1CFF693E00C3E978 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				700AC5AC1CFF693E00C3E978 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		700AC5C51CFF693E00C3E978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		700AC5C61CFF693E00C3E978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		700AC5C81CFF693E00C3E978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sfGrioPOIApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatshoplabs.sfGrioPOIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		700AC5C91CFF693E00C3E978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sfGrioPOIApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatshoplabs.sfGrioPOIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		700AC5CB1CFF693E00C3E978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sfGrioPOIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatshoplabs.sfGrioPOIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sfGrioPOIApp.app/sfGrioPOIApp";
+			};
+			name = Debug;
+		};
+		700AC5CC1CFF693E00C3E978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sfGrioPOIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatshoplabs.sfGrioPOIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sfGrioPOIApp.app/sfGrioPOIApp";
+			};
+			name = Release;
+		};
+		700AC5CE1CFF693E00C3E978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sfGrioPOIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatshoplabs.sfGrioPOIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sfGrioPOIApp;
+			};
+			name = Debug;
+		};
+		700AC5CF1CFF693E00C3E978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sfGrioPOIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beatshoplabs.sfGrioPOIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sfGrioPOIApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		700AC59A1CFF693E00C3E978 /* Build configuration list for PBXProject "sfGrioPOIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700AC5C51CFF693E00C3E978 /* Debug */,
+				700AC5C61CFF693E00C3E978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700AC5C71CFF693E00C3E978 /* Build configuration list for PBXNativeTarget "sfGrioPOIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700AC5C81CFF693E00C3E978 /* Debug */,
+				700AC5C91CFF693E00C3E978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700AC5CA1CFF693E00C3E978 /* Build configuration list for PBXNativeTarget "sfGrioPOIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700AC5CB1CFF693E00C3E978 /* Debug */,
+				700AC5CC1CFF693E00C3E978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		700AC5CD1CFF693E00C3E978 /* Build configuration list for PBXNativeTarget "sfGrioPOIAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				700AC5CE1CFF693E00C3E978 /* Debug */,
+				700AC5CF1CFF693E00C3E978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 700AC5971CFF693E00C3E978 /* Project object */;
+}
