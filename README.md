@@ -33,7 +33,7 @@ Finally, when the findButton is hit, we loop through each CGPoint array, create 
 
 When there is a match, we add it to the <b>locationsFound</b> array of tuples (a name String and a CGPoint). Then we update the tableView with the new data.
 
-Most of the UI was done through the main.storyboard and autolayout
+Most of the UI was done through the main.storyboard and autolayout.
 
 -
 INSTRUCTIONS: If you visit: https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/san-francisco.geojson
