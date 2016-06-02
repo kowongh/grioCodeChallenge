@@ -23,9 +23,11 @@ Here are some test coordinates to try with the app:
 -
 The app was created with one ViewController which has two main views. The first view contains two input textFields and a button, and the second view is a tableView for storing locations. I chose to work with CGPoints, because it seemed easier to work with instead of small two-index arrays and there was already built-in UIKit support for the containsPoint method.
 
-In the "readFile" method, I parsed through the GeoJSON data by casting it to an NSDictionary.
+In the <b>"readFile"</b> method, I cast the GeoJSON data to an NSDictionary.
 
-Then in the "parseNeighborhoods" method which accepts a NSDictionary, I extracted the relevant information, like name and coordinates. Since the main geometry object being used was a "MultiPolygon" it had many nested arrays within the main object. A neighborhood can contain many polygons or regions, for instance the Marina contains 56 polygons, so we parse through those nested polygon arrays, format them as CGPoint arrays, and place them into an array of CGPoint arrays called "regions".
+Then in the "parseNeighborhoods" method which accepts a NSDictionary, I extracted the relevant information, like name and coordinates. 
+
+Since the main geometry object being used was a "MultiPolygon" it had many nested arrays within the main object. A neighborhood can contain many polygons or regions, for instance the Marina contains 56 polygons, so we parse through those nested polygon arrays, format them as CGPoint arrays, and place them into an array of CGPoint arrays called "regions".
 
 Finally, when the findButton is hit, we loop through each CGPoint array and check if it contains the point that was input from the textFields.
 
