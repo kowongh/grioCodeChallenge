@@ -29,7 +29,7 @@ Then in the <b>"parseNeighborhoods"</b> method which accepts a NSDictionary, I e
 
 Since the main geometry object being used was a <b>"MultiPolygon"</b> it had many nested arrays within the main object. A neighborhood can contain many polygons or regions, for instance the Marina contains 56 polygons, so we parse through those nested polygon arrays, format them as CGPoint arrays, and place them into an array of CGPoint arrays called "regions".
 
-Finally, when the findButton is hit, we loop through each CGPoint array and check if it contains the point that was input from the textFields.
+Finally, when the findButton is hit, we loop through each CGPoint array, create a polygon based on those CGPoints using <b>moveToPoint</b> and <b>addLineToPoint</b>, and check if it contains the point that was input from the textFields.
 
 When there is a match, we add it to the <b>locationsFound</b> array of tuples (a name String and a CGPoint). Then we update the tableView with the new data.
 
