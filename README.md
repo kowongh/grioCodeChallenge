@@ -21,7 +21,7 @@ Here are some test coordinates to try with the app:
 37.786630, -122.398270
 
 -
-The app was created with one ViewController which has two main views. The first view contains two input textFields and button, and the second view is a tableView for storing locations. I chose to work with CGPoints, because it seemed easier to work with instead of small two-index arrays and there was already built-in UIKit support for the containsPoint method.
+The app was created with one ViewController which has two main views. The first view contains two input textFields and a button, and the second view is a tableView for storing locations. I chose to work with CGPoints, because it seemed easier to work with instead of small two-index arrays and there was already built-in UIKit support for the containsPoint method.
 
 In the "readFile" method, I parsed through the GeoJSON data by casting it to an NSDictionary.
 
